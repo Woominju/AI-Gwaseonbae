@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* Pretendard (SIL Open Font License 1.1, public/fonts/LICENSE-Pretendard.txt) — 한글 폰트 미설치 환경에서도 동일하게 표시 */
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/PretendardVariable.woff2") format("woff2-variations");
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-navy-950: #071528;
+  --color-navy-900: #0b1f3a;
+  --color-navy-800: #12305a;
+  --color-navy-700: #1a3f73;
+  --color-navy-600: #2a5591;
+  --color-navy-100: #e3eaf5;
+  --color-navy-50: #f2f5fb;
+  --color-teal-700: #0b6f70;
+  --color-teal-600: #0e8a8a;
+  --color-teal-500: #14a3a3;
+  --color-teal-100: #d5f2f1;
+  --color-teal-50: #ecfaf9;
+  --font-sans: "Pretendard", "Noto Sans KR", "Noto Sans CJK KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  background: #f6f8fc;
+  color: #0f1b2d;
+  word-break: keep-all;
+}
+.react-flow__attribution {
+  display: none;
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.animate-fade-up {
+  animation: fade-up 0.35s ease-out both;
+}
+
+/* ---------------- Campus Lounge (HUFS 선배마을) ---------------- */
+.lg-avatar .lg-body { transform-box: fill-box; transform-origin: 50% 100%; }
+.lg-state-idle .lg-body { animation: lg-bob 3.2s ease-in-out infinite; }
+.lg-state-speaking .lg-body { animation: lg-bob 0.9s ease-in-out infinite; }
+.lg-state-greeting .lg-arm-r { animation: lg-wave 0.5s ease-in-out 4 alternate; }
+.lg-state-encouraging .lg-body { animation: lg-hop 0.45s ease-out 3; }
+.lg-state-encouraging .lg-arm-r, .lg-state-encouraging .lg-arm-l { animation: lg-cheer 0.45s ease-out 3 alternate; }
+.lg-state-thinking .lg-head { transform-box: fill-box; transform-origin: 50% 100%; transform: rotate(-7deg); transition: transform .3s; }
+.lg-state-walking .lg-leg-l { animation: lg-step 0.36s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: 50% 0; }
+.lg-state-walking .lg-leg-r { animation: lg-step 0.36s ease-in-out infinite alternate-reverse; transform-box: fill-box; transform-origin: 50% 0; }
+.lg-state-walking .lg-body { animation: lg-bob 0.36s ease-in-out infinite; }
+.lg-arm-r, .lg-arm-l { transform-box: fill-box; }
+.lg-arm-r { transform-origin: 0% 0%; }
+.lg-arm-l { transform-origin: 100% 0%; }
+.lg-mouth-a { animation: lg-mouth 0.28s steps(1) infinite; }
+.lg-mouth-b { animation: lg-mouth 0.28s steps(1) infinite reverse; }
+.lg-dot { animation: lg-dot 1.2s ease-in-out infinite; }
+.lg-dot-1 { animation-delay: .2s; } .lg-dot-2 { animation-delay: .4s; }
+.lg-blink { transform-box: fill-box; transform-origin: 50% 50%; animation: lg-blink 4.6s infinite; }
+.lg-sparkle { animation: lg-twinkle .6s ease-in-out infinite alternate; }
+.lg-ring { animation: lg-spin-dash 2s linear infinite; }
+.lg-sway { transform-box: fill-box; transform-origin: 50% 100%; animation: lg-sway 5s ease-in-out infinite; }
+.lg-cloud { animation: lg-drift 40s linear infinite; }
+.lg-cloud-2 { animation-duration: 55s; animation-delay: -20s; }
+.lg-steam path { animation: lg-steam 2.4s ease-in-out infinite; }
+.lg-steam path:nth-child(2) { animation-delay: .8s; }
+.lg-bird { animation: lg-fly 18s linear infinite; }
+.lg-hotspot { cursor: pointer; }
+.lg-hotspot .lg-hint { animation: lg-pulse 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+.lg-walker { transition-property: transform; transition-timing-function: linear; }
+.lg-fade-in { animation: fade-up .45s ease-out both; }
+.lg-scene-enter { animation: lg-zoom .6s ease-out both; }
+
+@keyframes lg-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes lg-hop { 0% { transform: translateY(0); } 40% { transform: translateY(-14px); } 100% { transform: translateY(0); } }
+@keyframes lg-wave { from { transform: rotate(0); } to { transform: rotate(-110deg); } }
+@keyframes lg-cheer { from { transform: rotate(0); } to { transform: rotate(-60deg); } }
+@keyframes lg-step { from { transform: rotate(-14deg); } to { transform: rotate(14deg); } }
+@keyframes lg-mouth { 0% { opacity: 1; } 50% { opacity: 0; } }
+@keyframes lg-dot { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+@keyframes lg-blink { 0%,94%,100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
+@keyframes lg-twinkle { from { opacity: .4; } to { opacity: 1; } }
+@keyframes lg-spin-dash { to { stroke-dashoffset: -44; } }
+@keyframes lg-sway { 0%,100% { transform: rotate(-1.5deg); } 50% { transform: rotate(1.5deg); } }
+@keyframes lg-drift { from { transform: translateX(-260px); } to { transform: translateX(1100px); } }
+@keyframes lg-steam { 0% { opacity: 0; transform: translateY(6px); } 40% { opacity: .9; } 100% { opacity: 0; transform: translateY(-12px); } }
+@keyframes lg-fly { from { transform: translate(-100px, 30px); } to { transform: translate(1100px, -10px); } }
+@keyframes lg-pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.15); opacity: 1; } }
+@keyframes lg-zoom { from { opacity: 0; transform: scale(1.03); } to { opacity: 1; transform: none; } }
+
+/* 움직임 줄이기: OS 설정 또는 사용자 토글(.lg-reduce) */
+@media (prefers-reduced-motion: reduce) {
+  [class*="lg-"], .lg-walker { animation: none !important; transition-duration: 0s !important; }
+}
+.lg-reduce [class*="lg-"], .lg-reduce .lg-walker { animation: none !important; transition-duration: 0s !important; }

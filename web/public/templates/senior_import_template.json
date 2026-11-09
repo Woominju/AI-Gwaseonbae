@@ -1,0 +1,82 @@
+[
+  {
+    "record_id": "R-2027-001",
+    "department": "수학과",
+    "department_is_demo_category": false,
+    "graduation_year": 2025,
+    "career_field": [
+      "data_science"
+    ],
+    "path_type": "industry_job",
+    "current_role": "데이터 분석가",
+    "organization_type": "IT 기업 (기관명 비공개)",
+    "academic_background": {
+      "major": "수학과"
+    },
+    "key_skills": [
+      "Python",
+      "SQL",
+      "통계"
+    ],
+    "courses": [
+      {
+        "name": "확률론",
+        "skills_developed": [
+          "통계"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "공공데이터 분석 프로젝트",
+        "kind": "project",
+        "description": "(설문 응답 요약)",
+        "skills": [
+          "Python"
+        ],
+        "when": "3학년 2학기"
+      }
+    ],
+    "internships": [],
+    "certifications": [
+      "ADsP"
+    ],
+    "career_decisions": [
+      {
+        "decision": "학부 졸업 후 취업",
+        "alternatives": [
+          "대학원"
+        ],
+        "reason": "(설문 응답 원문)"
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -6,
+        "label": "4학년 1학기",
+        "activity": "인턴 지원",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 3,
+    "difficulties": [
+      "(설문 응답)"
+    ],
+    "lessons_learned": [
+      "(설문 응답)"
+    ],
+    "advice": [
+      "(설문 응답)"
+    ],
+    "context_tags": [
+      "빠른 취업"
+    ],
+    "evidence_source": {
+      "type": "survey_self_report",
+      "description": "2027년 1학기 졸업생 진로 설문 (운영 부서명)"
+    },
+    "source_date": "2027-03-01",
+    "consent_status": "consented",
+    "is_synthetic": false
+  }
+]

@@ -1,0 +1,164 @@
+/*
+ * AI 과선배 3.0 — SD 아바타(Avatar3) 애니메이션. 접두사 w3a-.
+ * 피벗 그룹(.w3a-p)은 지역 좌표 (0,0) 을 회전 중심으로 쓴다 (목·어깨·엉덩이·눈).
+ * prefers-reduced-motion 또는 상위 .w3-reduce 에서는 모두 정지하고, 상태별 '정지 포즈'만 남긴다.
+ */
+.w3a .w3a-p,
+.w3a .w3a-upper,
+.w3a .w3a-body,
+.w3a .w3a-hop {
+  transform-box: view-box;
+  transform-origin: 0 0;
+}
+
+/* 공통: 가끔 눈 깜빡임 */
+.w3a .w3a-blink {
+  animation: w3a-blink 4.6s ease-in-out infinite;
+}
+@keyframes w3a-blink {
+  0%, 93%, 100% { transform: scaleY(1); }
+  95.5% { transform: scaleY(0.12); }
+}
+
+/* idle: 호흡 */
+.w3a-idle .w3a-upper,
+.w3a-thinking .w3a-upper,
+.w3a-speaking .w3a-upper {
+  animation: w3a-breathe 3.2s ease-in-out infinite;
+}
+@keyframes w3a-breathe {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-1.4px); }
+}
+
+/* walking: 다리 교차 + 팔 흔들기 + 몸 흔들림 */
+.w3a-walking .w3a-leg-l { animation: w3a-step 1.28s linear infinite; }
+.w3a-walking .w3a-leg-r { animation: w3a-step 1.28s linear infinite; animation-delay: -0.64s; }
+.w3a-walking .w3a-arm-l { animation: w3a-arm-a 0.64s ease-in-out infinite alternate-reverse; }
+.w3a-walking .w3a-arm-r { animation: w3a-arm-a 0.64s ease-in-out infinite alternate; }
+.w3a-walking .w3a-body { animation: w3a-walk-bob 0.32s ease-in-out infinite alternate; }
+.w3a-walking .w3a-head { animation: w3a-walk-head 1.28s ease-in-out infinite; }
+/* 한 발씩 들어 올려 내딛기: 앞으로 갈 때 살짝 들리고, 뒤로 밀 때는 바닥에 붙는다 */
+@keyframes w3a-step {
+  0% { transform: rotate(10deg); }
+  25% { transform: translateY(-3px) rotate(0deg); }
+  50% { transform: rotate(-10deg); }
+  75% { transform: rotate(0deg); }
+  100% { transform: rotate(10deg); }
+}
+@keyframes w3a-arm-a {
+  from { transform: rotate(12deg); }
+  to { transform: rotate(-12deg); }
+}
+@keyframes w3a-walk-bob {
+  from { transform: translateY(0); }
+  to { transform: translateY(-2.4px); }
+}
+@keyframes w3a-walk-head {
+  0%, 100% { transform: rotate(-1.5deg); }
+  50% { transform: rotate(1.5deg); }
+}
+
+/* greeting: 손 흔들기 (정지 포즈 = 손 든 상태) */
+.w3a-greeting .w3a-arm-r {
+  transform: rotate(-124deg);
+  animation: w3a-wave 0.9s ease-in-out infinite;
+}
+.w3a-greeting .w3a-head { transform: rotate(3deg); }
+@keyframes w3a-wave {
+  0%, 100% { transform: rotate(-112deg); }
+  50% { transform: rotate(-136deg); }
+}
+.w3a-greeting .w3a-upper { animation: w3a-breathe 1.8s ease-in-out infinite; }
+
+/* thinking: 고개 기울임 + 말줄임 말풍선 */
+.w3a-thinking .w3a-head {
+  transform: rotate(6deg);
+  animation: w3a-ponder 3.6s ease-in-out infinite;
+}
+@keyframes w3a-ponder {
+  0%, 100% { transform: rotate(6deg); }
+  50% { transform: rotate(3.5deg); }
+}
+.w3a-thinking .w3a-dot { animation: w3a-dot 1.2s ease-in-out infinite; }
+.w3a-thinking .w3a-dot-1 { animation-delay: 0.2s; }
+.w3a-thinking .w3a-dot-2 { animation-delay: 0.4s; }
+@keyframes w3a-dot {
+  0%, 60%, 100% { opacity: 0.3; }
+  30% { opacity: 0.95; }
+}
+
+/* speaking: 입 모양 교대 + 살짝 끄덕임 */
+.w3a-speaking .w3a-mouth-b { opacity: 0; }
+.w3a-speaking .w3a-mouth-a { animation: w3a-mouth-a 0.46s steps(1, end) infinite; }
+.w3a-speaking .w3a-mouth-b { animation: w3a-mouth-b 0.46s steps(1, end) infinite; }
+@keyframes w3a-mouth-a {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+}
+@keyframes w3a-mouth-b {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+}
+.w3a-speaking .w3a-head { animation: w3a-nod 1.4s ease-in-out infinite; }
+@keyframes w3a-nod {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-2deg); }
+}
+
+/* encouraging: 깡충 + 주먹 쥐고 응원 + 반짝임 */
+.w3a-encouraging .w3a-hop { animation: w3a-hop 0.9s cubic-bezier(0.3, 0, 0.4, 1) infinite; }
+@keyframes w3a-hop {
+  0%, 100% { transform: translateY(0); }
+  45% { transform: translateY(-8px); }
+  70% { transform: translateY(0); }
+}
+.w3a-encouraging .w3a-arm-r {
+  transform: rotate(-128deg);
+  animation: w3a-cheer 0.9s ease-in-out infinite;
+}
+@keyframes w3a-cheer {
+  0%, 100% { transform: rotate(-118deg); }
+  45% { transform: rotate(-136deg); }
+}
+.w3a-encouraging .w3a-arm-l { transform: rotate(-14deg); }
+.w3a-encouraging .w3a-shadow {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: w3a-shadow 0.9s cubic-bezier(0.3, 0, 0.4, 1) infinite;
+}
+@keyframes w3a-shadow {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  45% { transform: scale(0.8); opacity: 0.7; }
+  70% { transform: scale(1); opacity: 1; }
+}
+.w3a .w3a-sparkle { animation: w3a-twinkle 2.4s ease-in-out infinite; }
+.w3a .w3a-sparkle-1 { animation-delay: 0.8s; }
+.w3a .w3a-sparkle-2 { animation-delay: 1.6s; }
+@keyframes w3a-twinkle {
+  0%, 100% { transform: scale(0.55) rotate(0deg); opacity: 0.35; }
+  50% { transform: scale(1.1) rotate(20deg); opacity: 1; }
+}
+
+/* highlight: 부드러운 틸 바닥 고리 */
+.w3a .w3a-ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: w3a-ring 2.4s ease-in-out infinite;
+}
+@keyframes w3a-ring {
+  0%, 100% { opacity: 0.75; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+
+/* 움직임 줄이기 */
+@media (prefers-reduced-motion: reduce) {
+  .w3a,
+  .w3a * {
+    animation: none !important;
+  }
+}
+.w3-reduce .w3a,
+.w3-reduce .w3a * {
+  animation: none !important;
+}

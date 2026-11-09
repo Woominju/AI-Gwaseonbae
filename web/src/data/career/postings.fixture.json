@@ -1,0 +1,226 @@
+{
+ "_notice": "테스트용 가상 채용공고(Fixture). 실제 기업·공고가 아니며 사람인 API 응답이 아닙니다. 사람인 job-search 응답의 keyword·position 필드 형식만 흉내 냈습니다.",
+ "fetched_at": "2026-11-05T00:00:00.000Z",
+ "postings": [
+  {
+   "id": "FX-data_analyst-01",
+   "occupation": "data_analyst",
+   "company": "가상기업 A",
+   "title": "데이터 분석가 (신입)",
+   "keyword_required": "SQL,Python,통계,태블로",
+   "keyword_preferred": "ADsP,SQLD",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-data_analyst-02",
+   "occupation": "data_analyst",
+   "company": "가상기업 B",
+   "title": "데이터 애널리스트",
+   "keyword_required": "SQL,엑셀,시각화,커뮤니케이션",
+   "keyword_preferred": "Python",
+   "experience": "경력 1~3년",
+   "location": "서울"
+  },
+  {
+   "id": "FX-data_analyst-03",
+   "occupation": "data_analyst",
+   "company": "가상기업 C",
+   "title": "사업 데이터 분석 담당",
+   "keyword_required": "SQL,통계,보고서",
+   "keyword_preferred": "R,태블로",
+   "experience": "신입·경력",
+   "location": "경기"
+  },
+  {
+   "id": "FX-data_analyst-04",
+   "occupation": "data_analyst",
+   "company": "가상기업 D",
+   "title": "마케팅 데이터 분석",
+   "keyword_required": "SQL,엑셀,시각화",
+   "keyword_preferred": "Python,ADsP",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-data_analyst-05",
+   "occupation": "data_analyst",
+   "company": "가상기업 E",
+   "title": "데이터 분석 인턴(채용연계형)",
+   "keyword_required": "Python,통계",
+   "keyword_preferred": "SQL,머신러닝",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-data_analyst-06",
+   "occupation": "data_analyst",
+   "company": "가상기업 F",
+   "title": "BI 분석가",
+   "keyword_required": "SQL,태블로,대시보드",
+   "keyword_preferred": "Python",
+   "experience": "경력 2년↑",
+   "location": "서울"
+  },
+  {
+   "id": "FX-data_analyst-07",
+   "occupation": "data_analyst",
+   "company": "가상기업 G",
+   "title": "데이터 분석·모델링",
+   "keyword_required": "Python,머신러닝,통계",
+   "keyword_preferred": "SQL,딥러닝",
+   "experience": "경력 1년↑",
+   "location": "판교"
+  },
+  {
+   "id": "FX-data_analyst-08",
+   "occupation": "data_analyst",
+   "company": "가상기업 H",
+   "title": "리스크 데이터 분석",
+   "keyword_required": "SQL,통계,엑셀",
+   "keyword_preferred": "SAS,금융",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-ml_engineer-01",
+   "occupation": "ml_engineer",
+   "company": "가상기업 A",
+   "title": "머신러닝 엔지니어",
+   "keyword_required": "Python,PyTorch,머신러닝",
+   "keyword_preferred": "AWS,도커",
+   "experience": "경력 2년↑",
+   "location": "판교"
+  },
+  {
+   "id": "FX-ml_engineer-02",
+   "occupation": "ml_engineer",
+   "company": "가상기업 B",
+   "title": "AI 모델 개발 (신입)",
+   "keyword_required": "Python,딥러닝,선형대수",
+   "keyword_preferred": "논문,Git",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-ml_engineer-03",
+   "occupation": "ml_engineer",
+   "company": "가상기업 C",
+   "title": "NLP 엔지니어",
+   "keyword_required": "Python,딥러닝,LLM",
+   "keyword_preferred": "말뭉치,클라우드",
+   "experience": "경력 1년↑",
+   "location": "서울"
+  },
+  {
+   "id": "FX-ml_engineer-04",
+   "occupation": "ml_engineer",
+   "company": "가상기업 D",
+   "title": "MLOps 엔지니어",
+   "keyword_required": "Python,도커,클라우드",
+   "keyword_preferred": "Git,SQL",
+   "experience": "경력 3년↑",
+   "location": "서울"
+  },
+  {
+   "id": "FX-software_engineer-01",
+   "occupation": "software_engineer",
+   "company": "가상기업 A",
+   "title": "백엔드 개발자 (신입)",
+   "keyword_required": "Java,MySQL,알고리즘",
+   "keyword_preferred": "AWS,Git",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-software_engineer-02",
+   "occupation": "software_engineer",
+   "company": "가상기업 B",
+   "title": "서버 개발자",
+   "keyword_required": "Python,PostgreSQL,Git",
+   "keyword_preferred": "도커",
+   "experience": "경력 1~3년",
+   "location": "판교"
+  },
+  {
+   "id": "FX-software_engineer-03",
+   "occupation": "software_engineer",
+   "company": "가상기업 C",
+   "title": "웹 백엔드 개발",
+   "keyword_required": "JavaScript,데이터베이스",
+   "keyword_preferred": "클라우드",
+   "experience": "신입·경력",
+   "location": "서울"
+  },
+  {
+   "id": "FX-software_engineer-04",
+   "occupation": "software_engineer",
+   "company": "가상기업 D",
+   "title": "소프트웨어 엔지니어",
+   "keyword_required": "C++,알고리즘,자료구조",
+   "keyword_preferred": "Git",
+   "experience": "신입",
+   "location": "경기"
+  },
+  {
+   "id": "FX-global_sales-01",
+   "occupation": "global_sales",
+   "company": "가상기업 A",
+   "title": "해외영업 (영어)",
+   "keyword_required": "영어,커뮤니케이션,협상",
+   "keyword_preferred": "엑셀,무역",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-global_sales-02",
+   "occupation": "global_sales",
+   "company": "가상기업 B",
+   "title": "해외영업 담당 (중국어)",
+   "keyword_required": "중국어,영업,시장조사",
+   "keyword_preferred": "엑셀",
+   "experience": "경력 1년↑",
+   "location": "경기"
+  },
+  {
+   "id": "FX-global_sales-03",
+   "occupation": "global_sales",
+   "company": "가상기업 C",
+   "title": "글로벌 사업개발",
+   "keyword_required": "영어,시장조사,발표",
+   "keyword_preferred": "엑셀,스페인어",
+   "experience": "경력 2년↑",
+   "location": "서울"
+  },
+  {
+   "id": "FX-business_planning-01",
+   "occupation": "business_planning",
+   "company": "가상기업 A",
+   "title": "경영기획 (신입)",
+   "keyword_required": "엑셀,보고서,시장조사",
+   "keyword_preferred": "재무분석,PPT",
+   "experience": "신입",
+   "location": "서울"
+  },
+  {
+   "id": "FX-business_planning-02",
+   "occupation": "business_planning",
+   "company": "가상기업 B",
+   "title": "전략기획 담당",
+   "keyword_required": "시장조사,PPT,커뮤니케이션",
+   "keyword_preferred": "SQL,재무",
+   "experience": "경력 2년↑",
+   "location": "서울"
+  },
+  {
+   "id": "FX-business_planning-03",
+   "occupation": "business_planning",
+   "company": "가상기업 C",
+   "title": "사업기획",
+   "keyword_required": "엑셀,발표,비즈니스 분석",
+   "keyword_preferred": "시각화",
+   "experience": "신입·경력",
+   "location": "판교"
+  }
+ ]
+}

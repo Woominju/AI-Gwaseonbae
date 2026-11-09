@@ -1,0 +1,298 @@
+{
+ "_notice": "가상 시연 수강편람입니다. 실제 한국외국어대학교 교과정보가 아니며, 공식 자료에서 옮겨 온 내용이 없습니다.",
+ "documents": [
+  {
+   "doc_id": "DOC-SYN-2026-1",
+   "title": "가상 수강편람 2026학년도 1학기 (시연용)",
+   "publisher": "AI 과선배 시연 데이터 (실제 학교 자료 아님)",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "url": null,
+   "status": "synthetic_demo",
+   "license_confirmed": true,
+   "retrieved_at": "2026-11-09"
+  },
+  {
+   "doc_id": "DOC-SYN-2025-2",
+   "title": "가상 수강편람 2025학년도 2학기 (시연용)",
+   "publisher": "AI 과선배 시연 데이터 (실제 학교 자료 아님)",
+   "academic_year": 2025,
+   "term": "2학기",
+   "campus": "시연 캠퍼스",
+   "url": null,
+   "status": "synthetic_demo",
+   "license_confirmed": true,
+   "retrieved_at": "2026-11-09"
+  }
+ ],
+ "courses": [
+  {
+   "course_code": "SYN-M101",
+   "name": "미분적분학",
+   "department": "수학과",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "함수의 극한, 미분, 적분의 기초를 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [],
+   "topics": [
+    "미분적분"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.3 수학과"
+  },
+  {
+   "course_code": "SYN-M201",
+   "name": "선형대수학",
+   "department": "수학과",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "벡터공간과 행렬, 고유값을 다루는 시연용 강의 개요입니다.",
+   "prerequisites": null,
+   "topics": [
+    "linear_algebra"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.3 수학과"
+  },
+  {
+   "course_code": "SYN-M301",
+   "name": "확률론",
+   "department": "수학과",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "확률공간, 확률변수, 분포를 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "미분적분학"
+   ],
+   "topics": [
+    "statistics",
+    "확률분포"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.4 수학과"
+  },
+  {
+   "course_code": "SYN-M302",
+   "name": "수리통계학",
+   "department": "수학과",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "추정과 가설검정의 수학적 기초를 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "확률론"
+   ],
+   "topics": [
+    "statistics"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.4 수학과"
+  },
+  {
+   "course_code": "SYN-M303",
+   "name": "수치해석",
+   "department": "수학과",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "수치 계산 방법을 파이썬 실습으로 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "선형대수학"
+   ],
+   "topics": [
+    "python",
+    "optimization"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.5 수학과"
+  },
+  {
+   "course_code": "SYN-M304",
+   "name": "해석학",
+   "department": "수학과",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "실수와 수열, 연속성을 엄밀하게 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "미분적분학"
+   ],
+   "topics": [
+    "mathematical_proof"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.5 수학과"
+  },
+  {
+   "course_code": "SYN-S201",
+   "name": "회귀분석",
+   "department": "통계 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "선형회귀 모형과 진단을 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "수리통계학"
+   ],
+   "topics": [
+    "statistics"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.8 통계 계열"
+  },
+  {
+   "course_code": "SYN-S301",
+   "name": "데이터시각화",
+   "department": "통계 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "자료 탐색과 시각화를 실습하는 시연용 강의 개요입니다.",
+   "prerequisites": null,
+   "topics": [
+    "data_visualization",
+    "python"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.8 통계 계열"
+  },
+  {
+   "course_code": "SYN-C201",
+   "name": "자료구조",
+   "department": "컴퓨터공학 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "기본 자료구조와 구현을 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [],
+   "topics": [
+    "python",
+    "software_engineering"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.11 컴퓨터공학 계열"
+  },
+  {
+   "course_code": "SYN-C301",
+   "name": "데이터베이스",
+   "department": "컴퓨터공학 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "관계형 모델과 SQL을 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "자료구조"
+   ],
+   "topics": [
+    "sql",
+    "database"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.11 컴퓨터공학 계열"
+  },
+  {
+   "course_code": "SYN-C302",
+   "name": "소프트웨어공학",
+   "department": "컴퓨터공학 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "협업 개발 절차와 테스트를 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "자료구조"
+   ],
+   "topics": [
+    "software_engineering"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.12 컴퓨터공학 계열"
+  },
+  {
+   "course_code": "SYN-C401",
+   "name": "머신러닝",
+   "department": "컴퓨터공학 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "지도학습과 모델 평가를 다루는 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "선형대수학",
+    "확률론"
+   ],
+   "topics": [
+    "machine_learning",
+    "python"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.12 컴퓨터공학 계열"
+  },
+  {
+   "course_code": "SYN-B201",
+   "name": "경영통계",
+   "department": "경영 계열",
+   "academic_year": 2026,
+   "term": "1학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "경영 자료 분석에 쓰는 통계 기초를 다루는 시연용 강의 개요입니다.",
+   "prerequisites": null,
+   "topics": [
+    "statistics",
+    "business_analysis"
+   ],
+   "doc_id": "DOC-SYN-2026-1",
+   "locator": "가상 p.15 경영 계열"
+  },
+  {
+   "course_code": "SYN-M301",
+   "name": "확률론",
+   "department": "수학과",
+   "academic_year": 2025,
+   "term": "2학기",
+   "campus": "시연 캠퍼스",
+   "credits": 2,
+   "overview": "확률의 기초를 다루는 2025학년도 시연용 강의 개요입니다.",
+   "prerequisites": [],
+   "topics": [
+    "statistics",
+    "확률분포"
+   ],
+   "doc_id": "DOC-SYN-2025-2",
+   "locator": "가상 p.4 수학과"
+  },
+  {
+   "course_code": "SYN-M302",
+   "name": "수리통계학",
+   "department": "수학과",
+   "academic_year": 2025,
+   "term": "2학기",
+   "campus": "시연 캠퍼스",
+   "credits": 3,
+   "overview": "추정과 가설검정의 기초를 다루는 2025학년도 시연용 강의 개요입니다.",
+   "prerequisites": [
+    "확률론"
+   ],
+   "topics": [
+    "statistics"
+   ],
+   "doc_id": "DOC-SYN-2025-2",
+   "locator": "가상 p.4 수학과"
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+/* AI 과선배 3.0 — 장면 환경 애니메이션 (절제: 장면당 3~4종, 2~4초 이상 주기).
+   모든 클래스는 w3- 접두사. prefers-reduced-motion 또는 조상 .w3-reduce 이면 정지한다. */
+
+.w3-sway,
+.w3-sway-slow,
+.w3-swing {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+.w3-sway {
+  animation: w3-sway 5.5s ease-in-out infinite alternate;
+}
+.w3-sway-slow {
+  animation: w3-sway 7.5s ease-in-out infinite alternate;
+}
+.w3-swing {
+  transform-origin: 50% 0%;
+  animation: w3-sway 6s ease-in-out infinite alternate;
+}
+@keyframes w3-sway {
+  from {
+    transform: rotate(-1.5deg);
+  }
+  to {
+    transform: rotate(1.5deg);
+  }
+}
+
+.w3-cloud {
+  animation: w3-cloud 46s ease-in-out infinite alternate;
+}
+.w3-cloud-b {
+  animation-duration: 62s;
+  animation-direction: alternate-reverse;
+}
+@keyframes w3-cloud {
+  from {
+    transform: translateX(-30px);
+  }
+  to {
+    transform: translateX(40px);
+  }
+}
+
+.w3-shimmer {
+  animation: w3-shimmer 3.6s ease-in-out infinite;
+}
+.w3-shimmer:nth-child(2n) {
+  animation-delay: -1.4s;
+}
+.w3-shimmer:nth-child(3n) {
+  animation-delay: -2.5s;
+}
+@keyframes w3-shimmer {
+  0%,
+  100% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+.w3-twinkle {
+  animation: w3-twinkle 3.2s ease-in-out infinite;
+}
+@keyframes w3-twinkle {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.w3-steam {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: w3-steam 3.4s ease-in-out infinite;
+}
+@keyframes w3-steam {
+  0% {
+    opacity: 0;
+    transform: translateY(4px) scaleY(0.85);
+  }
+  40% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px) scaleY(1.1);
+  }
+}
+
+.w3-fountain {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: w3-fountain 2.6s ease-in-out infinite alternate;
+}
+@keyframes w3-fountain {
+  from {
+    transform: scaleY(0.96);
+    opacity: 0.85;
+  }
+  to {
+    transform: scaleY(1.03);
+    opacity: 1;
+  }
+}
+
+.w3-ripple {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+  animation: w3-ripple 3.6s ease-out infinite;
+}
+.w3-ripple.w3-delay {
+  animation-delay: -1.8s;
+}
+@keyframes w3-ripple {
+  0% {
+    transform: scale(0.7);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.12);
+    opacity: 0;
+  }
+}
+
+.w3-bob {
+  animation: w3-bob 3s ease-in-out infinite alternate;
+}
+.w3-bob:nth-child(2n) {
+  animation-delay: -1.1s;
+}
+@keyframes w3-bob {
+  from {
+    transform: translateY(-1.5px);
+  }
+  to {
+    transform: translateY(1.5px);
+  }
+}
+
+.w3-fall {
+  animation: w3-fall 9s linear infinite;
+}
+.w3-fall:nth-child(2n) {
+  animation-duration: 11s;
+  animation-delay: -4s;
+}
+.w3-fall:nth-child(3n) {
+  animation-duration: 13s;
+  animation-delay: -7s;
+}
+@keyframes w3-fall {
+  0% {
+    transform: translate(0, -20px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(60px, 200px) rotate(200deg);
+    opacity: 0;
+  }
+}
+
+.w3-glow {
+  animation: w3-glow 4s ease-in-out infinite alternate;
+}
+@keyframes w3-glow {
+  from {
+    opacity: 0.85;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.w3-beam {
+  animation: w3-beam 6s ease-in-out infinite alternate;
+}
+@keyframes w3-beam {
+  from {
+    opacity: 0.75;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 움직임 줄이기 */
+@media (prefers-reduced-motion: reduce) {
+  .w3-sway,
+  .w3-sway-slow,
+  .w3-swing,
+  .w3-cloud,
+  .w3-shimmer,
+  .w3-twinkle,
+  .w3-steam,
+  .w3-fountain,
+  .w3-ripple,
+  .w3-bob,
+  .w3-fall,
+  .w3-glow,
+  .w3-beam {
+    animation: none !important;
+  }
+  .w3-fall {
+    opacity: 0;
+  }
+}
+.w3-reduce .w3-sway,
+.w3-reduce .w3-sway-slow,
+.w3-reduce .w3-swing,
+.w3-reduce .w3-cloud,
+.w3-reduce .w3-shimmer,
+.w3-reduce .w3-twinkle,
+.w3-reduce .w3-steam,
+.w3-reduce .w3-fountain,
+.w3-reduce .w3-ripple,
+.w3-reduce .w3-bob,
+.w3-reduce .w3-fall,
+.w3-reduce .w3-glow,
+.w3-reduce .w3-beam {
+  animation: none !important;
+}
+.w3-reduce .w3-fall {
+  opacity: 0;
+}

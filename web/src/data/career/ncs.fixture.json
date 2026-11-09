@@ -1,0 +1,141 @@
+{
+ "_notice": "테스트용 Fixture. 능력단위 명칭은 실제 NCS 원문이 아닌 '예시'이며, 공식 API(data.go.kr 15128213) 인증키로 조회한 결과로 교체해야 합니다. 세분류 코드도 공개 2차 자료 기준으로 미검증입니다.",
+ "standards": {
+  "data_analyst": [
+   {
+    "name": "[예시] 분석 데이터 수집·정제",
+    "mapped_skills": [
+     "sql",
+     "python",
+     "database"
+    ]
+   },
+   {
+    "name": "[예시] 탐색적 데이터 분석",
+    "mapped_skills": [
+     "statistics",
+     "python",
+     "data_visualization"
+    ]
+   },
+   {
+    "name": "[예시] 통계 분석 모델 적용",
+    "mapped_skills": [
+     "statistics",
+     "machine_learning"
+    ]
+   },
+   {
+    "name": "[예시] 분석 결과 시각화·보고",
+    "mapped_skills": [
+     "data_visualization",
+     "report_writing",
+     "presentation"
+    ]
+   },
+   {
+    "name": "[예시] 분석 과제 정의",
+    "mapped_skills": [
+     "business_analysis",
+     "communication"
+    ]
+   }
+  ],
+  "ml_engineer": [
+   {
+    "name": "[예시] 학습 데이터 준비",
+    "mapped_skills": [
+     "python",
+     "data_annotation",
+     "sql"
+    ]
+   },
+   {
+    "name": "[예시] 모델 설계·학습",
+    "mapped_skills": [
+     "machine_learning",
+     "deep_learning",
+     "linear_algebra"
+    ]
+   },
+   {
+    "name": "[예시] 모델 성능 평가",
+    "mapped_skills": [
+     "statistics",
+     "machine_learning"
+    ]
+   },
+   {
+    "name": "[예시] 모델 배포·운영",
+    "mapped_skills": [
+     "cloud",
+     "programming",
+     "git"
+    ]
+   }
+  ],
+  "software_engineer": [
+   {
+    "name": "[예시] 요구사항 분석",
+    "mapped_skills": [
+     "communication",
+     "business_analysis"
+    ]
+   },
+   {
+    "name": "[예시] 서버 프로그램 구현",
+    "mapped_skills": [
+     "programming",
+     "database",
+     "algorithms"
+    ]
+   },
+   {
+    "name": "[예시] 데이터베이스 구현",
+    "mapped_skills": [
+     "database",
+     "sql"
+    ]
+   },
+   {
+    "name": "[예시] 애플리케이션 테스트·배포",
+    "mapped_skills": [
+     "git",
+     "cloud",
+     "programming"
+    ]
+   }
+  ],
+  "business_planning": [
+   {
+    "name": "[예시] 사업환경 분석",
+    "mapped_skills": [
+     "business_analysis",
+     "data_visualization"
+    ]
+   },
+   {
+    "name": "[예시] 경영계획 수립",
+    "mapped_skills": [
+     "business_analysis",
+     "excel",
+     "report_writing"
+    ]
+   },
+   {
+    "name": "[예시] 경영실적 분석",
+    "mapped_skills": [
+     "financial_analysis",
+     "excel"
+    ]
+   },
+   {
+    "name": "[예시] 이해관계자 커뮤니케이션",
+    "mapped_skills": [
+     "communication",
+     "presentation"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,2552 @@
+[
+  {
+    "record_id": "S-01",
+    "department": "수학과",
+    "graduation_year": 2021,
+    "career_field": [
+      "ai_ml",
+      "research_academia"
+    ],
+    "path_type": "graduate_school",
+    "current_role": "AI 연구원 (석사 졸업)",
+    "organization_type": "국내 대기업 AI 연구조직(가상)",
+    "academic_background": {
+      "major": "수학과",
+      "graduate_degree": "인공지능 석사(가상)"
+    },
+    "key_skills": [
+      "python",
+      "linear_algebra",
+      "statistics",
+      "machine_learning",
+      "deep_learning",
+      "research_writing"
+    ],
+    "courses": [
+      {
+        "name": "선형대수학",
+        "skills_developed": [
+          "linear_algebra"
+        ]
+      },
+      {
+        "name": "수리통계학",
+        "skills_developed": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "수치해석",
+        "skills_developed": [
+          "python",
+          "optimization"
+        ]
+      },
+      {
+        "name": "해석학",
+        "skills_developed": [
+          "mathematical_proof"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "학부연구생: 최적화 기반 학습 알고리즘 논문 리딩",
+        "kind": "research",
+        "description": "지도교수 연구실에서 1년간 논문 리딩과 간단한 재현 실험을 수행",
+        "skills": [
+          "research_writing",
+          "optimization",
+          "python"
+        ],
+        "duration_months": 12,
+        "when": "3학년 1학기~4학년 1학기",
+        "self_reported_link": true
+      },
+      {
+        "title": "캡스톤: 이미지 분류 모델 비교 실험",
+        "kind": "project",
+        "description": "공개 데이터셋으로 여러 모델의 성능을 비교하고 보고서를 작성",
+        "skills": [
+          "deep_learning",
+          "python"
+        ],
+        "duration_months": 4,
+        "when": "4학년 1학기"
+      }
+    ],
+    "internships": [],
+    "certifications": [],
+    "career_decisions": [
+      {
+        "decision": "석사 진학을 선택",
+        "alternatives": [
+          "학부 졸업 후 데이터 분석 직무 취업"
+        ],
+        "reason": "모델이 왜 작동하는지 수학적으로 깊게 이해하고 싶었고, 학부연구생 경험이 잘 맞았다고 느꼈다.",
+        "when": "4학년 1학기"
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -18,
+        "label": "3학년 1학기",
+        "activity": "학부연구생 시작, 선형대수·확률 복습",
+        "category": "research"
+      },
+      {
+        "month_offset": -10,
+        "label": "3학년 2학기",
+        "activity": "관심 연구실 3곳 탐색 및 교수 면담",
+        "category": "research"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 1학기",
+        "activity": "대학원 지원서·연구계획서 작성",
+        "category": "application"
+      },
+      {
+        "month_offset": 0,
+        "label": "졸업",
+        "activity": "석사 과정 입학",
+        "category": "research"
+      },
+      {
+        "month_offset": 24,
+        "label": "석사 졸업",
+        "activity": "AI 연구원으로 첫 직무 시작",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 24,
+    "difficulties": [
+      "석사 2년간 수입이 적어 생활비 부담이 있었다",
+      "처음에는 코딩 실력이 연구실 동료보다 부족했다"
+    ],
+    "lessons_learned": [
+      "수학 기초가 논문 이해 속도를 크게 좌우했다",
+      "연구실 선택이 대학원 생활의 만족도를 결정한다"
+    ],
+    "advice": [
+      "대학원을 고민한다면 학부연구생으로 먼저 연구를 경험해 보세요",
+      "연구실 선배와 직접 대화해 분위기를 확인하세요"
+    ],
+    "context_tags": [
+      "연구 지향",
+      "학위 기간 수입 감소",
+      "연구비 지원"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-02",
+    "department": "수학과",
+    "graduation_year": 2022,
+    "career_field": [
+      "data_science"
+    ],
+    "path_type": "industry_job",
+    "current_role": "데이터 분석가",
+    "organization_type": "국내 IT 플랫폼 기업(가상)",
+    "academic_background": {
+      "major": "수학과"
+    },
+    "key_skills": [
+      "python",
+      "sql",
+      "statistics",
+      "data_visualization",
+      "communication",
+      "certification_data"
+    ],
+    "courses": [
+      {
+        "name": "확률론",
+        "skills_developed": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "회귀분석(타과 수강)",
+        "skills_developed": [
+          "statistics",
+          "r"
+        ]
+      },
+      {
+        "name": "데이터베이스(타과 수강)",
+        "skills_developed": [
+          "sql",
+          "database"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "공공데이터 분석 공모전",
+        "kind": "competition",
+        "description": "지역 상권 데이터를 분석해 대시보드를 만들고 장려상 수준의 평가를 받음",
+        "skills": [
+          "python",
+          "data_visualization",
+          "communication"
+        ],
+        "duration_months": 2,
+        "when": "3학년 여름방학"
+      },
+      {
+        "title": "동아리 추천 시스템 프로젝트",
+        "kind": "project",
+        "description": "학내 동아리 데이터를 모아 간단한 추천 로직을 구현",
+        "skills": [
+          "python",
+          "sql"
+        ],
+        "duration_months": 3,
+        "when": "3학년 2학기"
+      }
+    ],
+    "internships": [
+      {
+        "title": "체험형 데이터 분석 인턴",
+        "kind": "internship",
+        "description": "서비스 로그를 SQL로 집계하고 주간 리포트를 작성",
+        "skills": [
+          "sql",
+          "data_visualization",
+          "communication"
+        ],
+        "duration_months": 6,
+        "when": "4학년 1학기",
+        "org_type": "IT 스타트업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "ADsP",
+      "SQLD"
+    ],
+    "career_decisions": [
+      {
+        "decision": "대학원 대신 학부 졸업 후 취업",
+        "alternatives": [
+          "통계 석사 진학"
+        ],
+        "reason": "실무 데이터를 빨리 경험하고 싶었고, 경제적으로 독립하는 것이 중요했다.",
+        "when": "4학년 1학기"
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -15,
+        "label": "3학년 1학기",
+        "activity": "Python·SQL 독학, 회귀분석 수강",
+        "category": "study"
+      },
+      {
+        "month_offset": -11,
+        "label": "3학년 여름",
+        "activity": "공공데이터 공모전 참가",
+        "category": "project"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "체험형 인턴 6개월",
+        "category": "internship"
+      },
+      {
+        "month_offset": -3,
+        "label": "4학년 2학기",
+        "activity": "포트폴리오 정리 후 공채 지원",
+        "category": "application"
+      },
+      {
+        "month_offset": 2,
+        "label": "졸업 후",
+        "activity": "데이터 분석가로 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 2,
+    "difficulties": [
+      "수학과라 SQL·실무 도구 경험이 처음엔 부족했다",
+      "분석 결과를 비전공자에게 설명하는 것이 어려웠다"
+    ],
+    "lessons_learned": [
+      "수학적 사고는 강점이지만 SQL과 시각화는 따로 연습해야 한다",
+      "인턴 경험이 면접에서 가장 많이 질문받았다"
+    ],
+    "advice": [
+      "공모전 하나라도 끝까지 완성해서 결과물을 남기세요",
+      "분석보다 '설명'을 연습하세요"
+    ],
+    "context_tags": [
+      "빠른 취업",
+      "경제적 독립",
+      "실무 경험 중시"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-03",
+    "department": "수학과",
+    "graduation_year": 2020,
+    "career_field": [
+      "finance",
+      "data_science"
+    ],
+    "path_type": "finance",
+    "current_role": "신용리스크 모델링 담당",
+    "organization_type": "시중은행(가상)",
+    "academic_background": {
+      "major": "수학과",
+      "minor": "경영 계열"
+    },
+    "key_skills": [
+      "statistics",
+      "sql",
+      "financial_analysis",
+      "python",
+      "certification_finance",
+      "excel"
+    ],
+    "courses": [
+      {
+        "name": "확률론",
+        "skills_developed": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "금융수학(시연용 과목명)",
+        "skills_developed": [
+          "financial_analysis",
+          "statistics"
+        ]
+      },
+      {
+        "name": "재무관리(부전공)",
+        "skills_developed": [
+          "financial_analysis",
+          "excel"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "신용점수 모형 스터디",
+        "kind": "project",
+        "description": "공개 대출 데이터로 로지스틱 회귀 모형을 만들어 보는 스터디",
+        "skills": [
+          "statistics",
+          "python"
+        ],
+        "duration_months": 3,
+        "when": "3학년 2학기"
+      }
+    ],
+    "internships": [
+      {
+        "title": "금융권 체험형 인턴",
+        "kind": "internship",
+        "description": "리스크 관리 부서 보조 업무와 엑셀 기반 보고서 작성",
+        "skills": [
+          "excel",
+          "report_writing"
+        ],
+        "duration_months": 2,
+        "when": "4학년 여름방학",
+        "org_type": "금융회사(가상)"
+      }
+    ],
+    "certifications": [
+      "투자자산운용사",
+      "ADsP"
+    ],
+    "career_decisions": [
+      {
+        "decision": "금융권 리스크 직무 선택",
+        "alternatives": [
+          "IT 기업 데이터 분석",
+          "통계 대학원"
+        ],
+        "reason": "수학·통계를 쓰면서도 고용 안정성이 높은 직무를 원했다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -18,
+        "label": "3학년 1학기",
+        "activity": "경영 부전공 시작, 재무관리 수강",
+        "category": "study"
+      },
+      {
+        "month_offset": -12,
+        "label": "3학년 2학기",
+        "activity": "투자자산운용사 준비",
+        "category": "certification"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 여름",
+        "activity": "금융권 체험형 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": -3,
+        "label": "4학년 2학기",
+        "activity": "금융권 필기·면접 준비",
+        "category": "application"
+      },
+      {
+        "month_offset": 6,
+        "label": "졸업 후",
+        "activity": "은행 입행",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 6,
+    "difficulties": [
+      "필기·자격증·인턴을 동시에 준비해야 해 시간이 부족했다"
+    ],
+    "lessons_learned": [
+      "금융권은 자격증보다 직무 이해도를 묻는 질문이 많았다"
+    ],
+    "advice": [
+      "금융권을 원한다면 부전공이나 관련 과목으로 도메인 지식을 쌓으세요"
+    ],
+    "context_tags": [
+      "고용 안정성",
+      "자격증 준비",
+      "필기 준비 기간"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-04",
+    "department": "수학과",
+    "graduation_year": 2019,
+    "career_field": [
+      "research_academia",
+      "ai_ml"
+    ],
+    "path_type": "graduate_school",
+    "current_role": "박사과정 연구자 (최적화 이론)",
+    "organization_type": "국내 대학원(가상)",
+    "academic_background": {
+      "major": "수학과",
+      "graduate_degree": "응용수학 석사, 박사과정 재학(가상)"
+    },
+    "key_skills": [
+      "optimization",
+      "linear_algebra",
+      "mathematical_proof",
+      "python",
+      "research_writing",
+      "foreign_language"
+    ],
+    "courses": [
+      {
+        "name": "해석학",
+        "skills_developed": [
+          "mathematical_proof"
+        ]
+      },
+      {
+        "name": "현대대수학",
+        "skills_developed": [
+          "mathematical_proof"
+        ]
+      },
+      {
+        "name": "수치해석",
+        "skills_developed": [
+          "optimization",
+          "python"
+        ]
+      },
+      {
+        "name": "선형대수학",
+        "skills_developed": [
+          "linear_algebra"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "학부 졸업논문: 볼록 최적화 수렴성 정리",
+        "kind": "research",
+        "description": "지도교수와 함께 수렴 증명을 정리한 졸업논문",
+        "skills": [
+          "mathematical_proof",
+          "optimization",
+          "research_writing"
+        ],
+        "duration_months": 8,
+        "when": "4학년",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [],
+    "certifications": [],
+    "career_decisions": [
+      {
+        "decision": "석박사 통합 과정 대신 석사 후 박사 진학",
+        "alternatives": [
+          "석사 후 취업"
+        ],
+        "reason": "석사 과정에서 연구가 맞는지 확인한 뒤 결정하고 싶었다."
+      },
+      {
+        "decision": "박사 진학",
+        "alternatives": [
+          "기업 연구소 취업"
+        ],
+        "reason": "이론 연구를 계속하고 싶었다. 다만 장기간의 경제적 불확실성은 감수해야 했다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -20,
+        "label": "3학년 1학기",
+        "activity": "해석학·대수학 심화 수강",
+        "category": "study"
+      },
+      {
+        "month_offset": -12,
+        "label": "4학년 1학기",
+        "activity": "졸업논문 주제 선정",
+        "category": "research"
+      },
+      {
+        "month_offset": -5,
+        "label": "4학년 2학기",
+        "activity": "대학원 지원",
+        "category": "application"
+      },
+      {
+        "month_offset": 0,
+        "label": "졸업",
+        "activity": "석사 입학",
+        "category": "research"
+      },
+      {
+        "month_offset": 30,
+        "label": "석사 졸업",
+        "activity": "박사과정 진학",
+        "category": "research"
+      }
+    ],
+    "months_to_first_role": null,
+    "difficulties": [
+      "장기간 연구 조교 수입에 의존해 경제적 부담이 컸다",
+      "연구 성과가 나지 않는 시기에 진로 불안을 느꼈다"
+    ],
+    "lessons_learned": [
+      "박사는 '공부를 더 하는 것'이 아니라 직업으로서의 연구를 선택하는 것이다"
+    ],
+    "advice": [
+      "박사 진학 전 최소 1년은 연구를 직접 해 보고 결정하세요",
+      "경제적 계획을 반드시 세우세요"
+    ],
+    "context_tags": [
+      "연구 지향",
+      "경제적 부담",
+      "장기 학위",
+      "진로 불확실성"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-05",
+    "department": "수학과",
+    "graduation_year": 2021,
+    "career_field": [
+      "public_policy",
+      "data_science"
+    ],
+    "path_type": "public_sector",
+    "current_role": "공공기관 통계·데이터 담당",
+    "organization_type": "공공기관(가상)",
+    "academic_background": {
+      "major": "수학과"
+    },
+    "key_skills": [
+      "statistics",
+      "ncs",
+      "report_writing",
+      "sql",
+      "certification_data"
+    ],
+    "courses": [
+      {
+        "name": "수리통계학",
+        "skills_developed": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "표본조사론(타과 수강)",
+        "skills_developed": [
+          "statistics",
+          "report_writing"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "지역 인구 통계 분석 보고서",
+        "kind": "project",
+        "description": "공공 통계 자료를 활용해 지역별 인구 변화를 분석한 수업 보고서",
+        "skills": [
+          "statistics",
+          "report_writing"
+        ],
+        "duration_months": 3,
+        "when": "3학년 2학기"
+      }
+    ],
+    "internships": [
+      {
+        "title": "공공기관 청년 체험형 인턴",
+        "kind": "internship",
+        "description": "통계 자료 정리와 보도자료 초안 작성 보조",
+        "skills": [
+          "report_writing",
+          "excel"
+        ],
+        "duration_months": 4,
+        "when": "4학년 2학기",
+        "org_type": "공공기관(가상)"
+      }
+    ],
+    "certifications": [
+      "사회조사분석사 2급"
+    ],
+    "career_decisions": [
+      {
+        "decision": "공공기관 통계 직무 선택",
+        "alternatives": [
+          "민간 데이터 분석"
+        ],
+        "reason": "고용 안정성과 사회적 기여를 중요하게 생각했다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -14,
+        "label": "3학년 2학기",
+        "activity": "사회조사분석사 준비",
+        "category": "certification"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "NCS 필기 스터디",
+        "category": "study"
+      },
+      {
+        "month_offset": -4,
+        "label": "4학년 2학기",
+        "activity": "공공기관 체험형 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 10,
+        "label": "졸업 후",
+        "activity": "필기·면접 재도전 후 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 10,
+    "difficulties": [
+      "필기시험 준비가 길어져 졸업 후 공백이 생겼다"
+    ],
+    "lessons_learned": [
+      "공공기관은 직무기술서를 꼼꼼히 읽고 준비 방향을 정하는 것이 중요했다"
+    ],
+    "advice": [
+      "NCS는 일찍부터 조금씩 준비하는 편이 부담이 적어요"
+    ],
+    "context_tags": [
+      "고용 안정성",
+      "사회적 기여",
+      "필기 준비 기간"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-06",
+    "department": "수학과",
+    "graduation_year": 2023,
+    "career_field": [
+      "ai_ml",
+      "software"
+    ],
+    "path_type": "industry_job",
+    "current_role": "머신러닝 엔지니어",
+    "organization_type": "국내 IT 기업(가상)",
+    "academic_background": {
+      "major": "수학과",
+      "double_major": "컴퓨터공학 계열"
+    },
+    "key_skills": [
+      "python",
+      "machine_learning",
+      "deep_learning",
+      "programming",
+      "cloud",
+      "git",
+      "algorithms"
+    ],
+    "courses": [
+      {
+        "name": "선형대수학",
+        "skills_developed": [
+          "linear_algebra"
+        ]
+      },
+      {
+        "name": "자료구조(복수전공)",
+        "skills_developed": [
+          "algorithms",
+          "programming"
+        ]
+      },
+      {
+        "name": "머신러닝(복수전공)",
+        "skills_developed": [
+          "machine_learning",
+          "python"
+        ]
+      },
+      {
+        "name": "확률론",
+        "skills_developed": [
+          "statistics"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "LLM 기반 학사 Q&A 챗봇 팀 프로젝트",
+        "kind": "project",
+        "description": "공개 문서로 검색 기반 챗봇을 만들고 클라우드에 배포",
+        "skills": [
+          "deep_learning",
+          "python",
+          "cloud",
+          "git"
+        ],
+        "duration_months": 4,
+        "when": "4학년 1학기"
+      },
+      {
+        "title": "데이터 분석 경진대회 참가",
+        "kind": "competition",
+        "description": "정형 데이터 예측 대회에서 상위권 진입",
+        "skills": [
+          "machine_learning",
+          "python"
+        ],
+        "duration_months": 2,
+        "when": "3학년 겨울방학"
+      }
+    ],
+    "internships": [
+      {
+        "title": "AI 스타트업 인턴",
+        "kind": "internship",
+        "description": "모델 서빙 파이프라인 개선과 실험 자동화",
+        "skills": [
+          "python",
+          "cloud",
+          "machine_learning"
+        ],
+        "duration_months": 4,
+        "when": "4학년 여름방학",
+        "org_type": "AI 스타트업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "정보처리기사"
+    ],
+    "career_decisions": [
+      {
+        "decision": "컴퓨터공학 계열 복수전공",
+        "alternatives": [
+          "통계 부전공"
+        ],
+        "reason": "수학만으로는 구현 역량을 보여주기 어렵다고 느꼈다.",
+        "when": "2학년 2학기"
+      },
+      {
+        "decision": "대학원 대신 학부 졸업 후 취업, 필요 시 대학원 재검토",
+        "alternatives": [
+          "AI 석사 진학"
+        ],
+        "reason": "실무에서 어떤 문제가 중요한지 먼저 경험한 뒤 대학원을 다시 판단하고 싶었다.",
+        "when": "4학년 1학기"
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -24,
+        "label": "2학년 2학기",
+        "activity": "컴퓨터공학 계열 복수전공 시작",
+        "category": "study"
+      },
+      {
+        "month_offset": -14,
+        "label": "3학년 겨울",
+        "activity": "데이터 분석 경진대회 참가",
+        "category": "project"
+      },
+      {
+        "month_offset": -10,
+        "label": "4학년 1학기",
+        "activity": "LLM 챗봇 팀 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 여름",
+        "activity": "AI 스타트업 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 1,
+        "label": "졸업 직후",
+        "activity": "머신러닝 엔지니어로 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 1,
+    "difficulties": [
+      "수학과·컴공 복수전공을 병행하느라 학점 관리가 힘들었다",
+      "대학원 진학 여부를 끝까지 고민했다"
+    ],
+    "lessons_learned": [
+      "수학 배경은 모델 이해에 강점이었지만 구현·배포 경험이 채용에서 더 직접적으로 평가되었다",
+      "대학원은 나중에도 선택할 수 있는 옵션으로 남겨둘 수 있었다"
+    ],
+    "advice": [
+      "AI 직무를 원한다면 작은 서비스라도 끝까지 배포해 보세요",
+      "대학원과 취업을 둘 중 하나로만 보지 말고 순서의 문제로도 생각해 보세요"
+    ],
+    "context_tags": [
+      "빠른 취업",
+      "선택지 유지",
+      "실무 경험 중시"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-07",
+    "department": "통계 계열",
+    "graduation_year": 2022,
+    "career_field": [
+      "data_science",
+      "research_academia"
+    ],
+    "path_type": "graduate_school",
+    "current_role": "데이터 사이언티스트 (통계 석사)",
+    "organization_type": "헬스케어 기업(가상)",
+    "academic_background": {
+      "major": "통계 계열",
+      "graduate_degree": "통계학 석사(가상)"
+    },
+    "key_skills": [
+      "statistics",
+      "r",
+      "python",
+      "machine_learning",
+      "research_writing",
+      "data_visualization"
+    ],
+    "courses": [
+      {
+        "name": "회귀분석",
+        "skills_developed": [
+          "statistics",
+          "r"
+        ]
+      },
+      {
+        "name": "다변량분석",
+        "skills_developed": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "통계적 학습",
+        "skills_developed": [
+          "machine_learning"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "학부연구생: 임상 데이터 생존분석",
+        "kind": "research",
+        "description": "교수 연구 프로젝트에서 생존분석 코드 작성",
+        "skills": [
+          "statistics",
+          "r",
+          "research_writing"
+        ],
+        "duration_months": 8,
+        "when": "4학년",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [],
+    "certifications": [
+      "ADsP"
+    ],
+    "career_decisions": [
+      {
+        "decision": "통계 석사 진학",
+        "alternatives": [
+          "학부 졸업 후 분석 직무"
+        ],
+        "reason": "헬스케어처럼 방법론 전문성이 중요한 분야로 가고 싶었다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -12,
+        "label": "4학년 1학기",
+        "activity": "학부연구생",
+        "category": "research"
+      },
+      {
+        "month_offset": -5,
+        "label": "4학년 2학기",
+        "activity": "대학원 지원",
+        "category": "application"
+      },
+      {
+        "month_offset": 0,
+        "label": "졸업",
+        "activity": "석사 입학",
+        "category": "research"
+      },
+      {
+        "month_offset": 26,
+        "label": "석사 졸업",
+        "activity": "데이터 사이언티스트 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 26,
+    "difficulties": [
+      "석사 기간 동안 동기들의 취업 소식에 조급함을 느꼈다"
+    ],
+    "lessons_learned": [
+      "도메인(의료) 지식과 통계 방법론을 함께 갖추니 지원할 수 있는 자리가 분명해졌다"
+    ],
+    "advice": [
+      "대학원을 간다면 '어떤 문제를 풀고 싶은지'를 먼저 정하세요"
+    ],
+    "context_tags": [
+      "연구 지향",
+      "전문성",
+      "학위 기간 수입 감소"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-08",
+    "department": "컴퓨터공학 계열",
+    "graduation_year": 2021,
+    "career_field": [
+      "software"
+    ],
+    "path_type": "industry_job",
+    "current_role": "백엔드 개발자",
+    "organization_type": "핀테크 스타트업(가상)",
+    "academic_background": {
+      "major": "컴퓨터공학 계열"
+    },
+    "key_skills": [
+      "programming",
+      "algorithms",
+      "database",
+      "cloud",
+      "git",
+      "sql"
+    ],
+    "courses": [
+      {
+        "name": "자료구조",
+        "skills_developed": [
+          "algorithms"
+        ]
+      },
+      {
+        "name": "데이터베이스",
+        "skills_developed": [
+          "database",
+          "sql"
+        ]
+      },
+      {
+        "name": "운영체제",
+        "skills_developed": [
+          "programming"
+        ]
+      },
+      {
+        "name": "소프트웨어공학",
+        "skills_developed": [
+          "git"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "교내 중고거래 웹서비스",
+        "kind": "project",
+        "description": "팀으로 웹서비스를 만들어 실제 사용자 200명 수준까지 운영",
+        "skills": [
+          "programming",
+          "database",
+          "cloud"
+        ],
+        "duration_months": 6,
+        "when": "3학년",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "개발 인턴",
+        "kind": "internship",
+        "description": "API 개발과 테스트 코드 작성",
+        "skills": [
+          "programming",
+          "git"
+        ],
+        "duration_months": 3,
+        "when": "4학년 여름방학",
+        "org_type": "IT 서비스 기업(가상)"
+      }
+    ],
+    "certifications": [
+      "정보처리기사"
+    ],
+    "career_decisions": [
+      {
+        "decision": "스타트업 백엔드 개발자로 입사",
+        "alternatives": [
+          "대기업 공채 대기"
+        ],
+        "reason": "빠르게 많은 것을 경험할 수 있는 환경을 원했다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -18,
+        "label": "3학년",
+        "activity": "웹서비스 프로젝트 운영",
+        "category": "project"
+      },
+      {
+        "month_offset": -10,
+        "label": "4학년 1학기",
+        "activity": "코딩테스트 준비",
+        "category": "study"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 여름",
+        "activity": "개발 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 3,
+        "label": "졸업 후",
+        "activity": "백엔드 개발자 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 3,
+    "difficulties": [
+      "코딩테스트와 학업 병행"
+    ],
+    "lessons_learned": [
+      "실제 사용자가 있는 서비스를 운영해 본 경험이 가장 큰 차별점이었다"
+    ],
+    "advice": [
+      "작더라도 실제로 운영되는 서비스를 만들어 보세요"
+    ],
+    "context_tags": [
+      "빠른 취업",
+      "실무 경험 중시"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-09",
+    "department": "컴퓨터공학 계열",
+    "graduation_year": 2020,
+    "career_field": [
+      "ai_ml",
+      "research_academia"
+    ],
+    "path_type": "graduate_school",
+    "current_role": "NLP 연구 엔지니어 (석사 졸업)",
+    "organization_type": "AI 연구소(가상)",
+    "academic_background": {
+      "major": "컴퓨터공학 계열",
+      "graduate_degree": "인공지능 석사(가상)"
+    },
+    "key_skills": [
+      "python",
+      "deep_learning",
+      "machine_learning",
+      "research_writing",
+      "linear_algebra",
+      "foreign_language"
+    ],
+    "courses": [
+      {
+        "name": "인공지능",
+        "skills_developed": [
+          "machine_learning"
+        ]
+      },
+      {
+        "name": "딥러닝",
+        "skills_developed": [
+          "deep_learning",
+          "python"
+        ]
+      },
+      {
+        "name": "선형대수",
+        "skills_developed": [
+          "linear_algebra"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "학부연구생: 한국어 문장 분류 실험",
+        "kind": "research",
+        "description": "한국어 데이터셋으로 분류 모델을 학습하고 학회 포스터 발표",
+        "skills": [
+          "deep_learning",
+          "research_writing",
+          "python"
+        ],
+        "duration_months": 10,
+        "when": "3학년 2학기~4학년",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [],
+    "certifications": [],
+    "career_decisions": [
+      {
+        "decision": "AI 석사 진학",
+        "alternatives": [
+          "개발자 취업"
+        ],
+        "reason": "연구 경력이 있어야 지원 가능한 연구 직무를 원했다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -16,
+        "label": "3학년 2학기",
+        "activity": "학부연구생 시작",
+        "category": "research"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "학회 포스터 발표",
+        "category": "research"
+      },
+      {
+        "month_offset": -5,
+        "label": "4학년 2학기",
+        "activity": "대학원 지원",
+        "category": "application"
+      },
+      {
+        "month_offset": 24,
+        "label": "석사 졸업",
+        "activity": "연구 엔지니어 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 24,
+    "difficulties": [
+      "영어 논문 작성이 가장 큰 벽이었다"
+    ],
+    "lessons_learned": [
+      "학부 때 발표 경험 하나가 대학원 지원에서 큰 신뢰를 줬다"
+    ],
+    "advice": [
+      "관심 연구실의 최근 논문 3편을 읽고 컨택하세요"
+    ],
+    "context_tags": [
+      "연구 지향",
+      "학위 기간 수입 감소",
+      "연구비 지원"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-10",
+    "department": "컴퓨터공학 계열",
+    "graduation_year": 2022,
+    "career_field": [
+      "data_engineering",
+      "software"
+    ],
+    "path_type": "industry_job",
+    "current_role": "데이터 엔지니어",
+    "organization_type": "이커머스 기업(가상)",
+    "academic_background": {
+      "major": "컴퓨터공학 계열"
+    },
+    "key_skills": [
+      "sql",
+      "python",
+      "cloud",
+      "database",
+      "programming"
+    ],
+    "courses": [
+      {
+        "name": "데이터베이스",
+        "skills_developed": [
+          "database",
+          "sql"
+        ]
+      },
+      {
+        "name": "분산시스템",
+        "skills_developed": [
+          "cloud"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "공공 API 수집 파이프라인",
+        "kind": "project",
+        "description": "공공 API 데이터를 매일 수집·적재하는 파이프라인 구축",
+        "skills": [
+          "python",
+          "cloud",
+          "database"
+        ],
+        "duration_months": 3,
+        "when": "4학년 1학기",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "데이터 플랫폼 인턴",
+        "kind": "internship",
+        "description": "로그 적재 배치 작업 모니터링",
+        "skills": [
+          "sql",
+          "cloud"
+        ],
+        "duration_months": 2,
+        "when": "4학년 여름방학",
+        "org_type": "이커머스 기업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "SQLD"
+    ],
+    "career_decisions": [
+      {
+        "decision": "데이터 엔지니어 직무 선택",
+        "alternatives": [
+          "백엔드 개발"
+        ],
+        "reason": "데이터가 흐르는 구조를 설계하는 일이 재미있었다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -10,
+        "label": "4학년 1학기",
+        "activity": "수집 파이프라인 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 여름",
+        "activity": "데이터 플랫폼 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 2,
+        "label": "졸업 후",
+        "activity": "전환형 채용으로 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 2,
+    "difficulties": [
+      "클라우드 비용 때문에 개인 프로젝트 규모를 줄여야 했다"
+    ],
+    "lessons_learned": [
+      "SQL은 모든 데이터 직무의 공통 언어였다"
+    ],
+    "advice": [
+      "작은 파이프라인이라도 매일 돌아가게 만들어 보세요"
+    ],
+    "context_tags": [
+      "빠른 취업",
+      "실무 경험 중시"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-11",
+    "department": "경영 계열",
+    "graduation_year": 2021,
+    "career_field": [
+      "marketing",
+      "data_science"
+    ],
+    "path_type": "industry_job",
+    "current_role": "마케팅 데이터 분석 담당",
+    "organization_type": "커머스 기업(가상)",
+    "academic_background": {
+      "major": "경영 계열"
+    },
+    "key_skills": [
+      "sql",
+      "data_visualization",
+      "business_analysis",
+      "excel",
+      "communication"
+    ],
+    "courses": [
+      {
+        "name": "마케팅원론",
+        "skills_developed": [
+          "business_analysis"
+        ]
+      },
+      {
+        "name": "경영통계",
+        "skills_developed": [
+          "statistics",
+          "excel"
+        ]
+      },
+      {
+        "name": "소비자행동론",
+        "skills_developed": [
+          "user_research"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "학내 카페 고객 데이터 분석",
+        "kind": "project",
+        "description": "설문과 매출 데이터를 결합해 프로모션 효과를 분석",
+        "skills": [
+          "excel",
+          "data_visualization",
+          "statistics"
+        ],
+        "duration_months": 2,
+        "when": "3학년 2학기"
+      }
+    ],
+    "internships": [
+      {
+        "title": "그로스 마케팅 인턴",
+        "kind": "internship",
+        "description": "광고 성과 대시보드 관리",
+        "skills": [
+          "sql",
+          "data_visualization"
+        ],
+        "duration_months": 4,
+        "when": "4학년 1학기",
+        "org_type": "커머스 기업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "SQLD",
+      "구글 애널리틱스 관련 교육 수료"
+    ],
+    "career_decisions": [
+      {
+        "decision": "마케팅 중에서도 데이터 분석 역할 선택",
+        "alternatives": [
+          "브랜드 마케팅"
+        ],
+        "reason": "숫자로 성과를 설명할 수 있는 일이 나와 맞았다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -12,
+        "label": "3학년 2학기",
+        "activity": "고객 데이터 분석 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "그로스 마케팅 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 1,
+        "label": "졸업 후",
+        "activity": "입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 1,
+    "difficulties": [
+      "경영 전공이라 SQL을 처음부터 독학해야 했다"
+    ],
+    "lessons_learned": [
+      "비즈니스 질문을 데이터 질문으로 바꾸는 능력이 핵심이었다"
+    ],
+    "advice": [
+      "경영 전공도 SQL 하나만 확실히 하면 데이터 역할에 도전할 수 있어요"
+    ],
+    "context_tags": [
+      "빠른 취업",
+      "실무 경험 중시"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-12",
+    "department": "경영 계열",
+    "graduation_year": 2020,
+    "career_field": [
+      "finance",
+      "business_strategy"
+    ],
+    "path_type": "finance",
+    "current_role": "디지털 전략 기획 담당",
+    "organization_type": "시중은행(가상)",
+    "academic_background": {
+      "major": "경영 계열"
+    },
+    "key_skills": [
+      "business_analysis",
+      "financial_analysis",
+      "presentation",
+      "excel",
+      "certification_finance"
+    ],
+    "courses": [
+      {
+        "name": "재무관리",
+        "skills_developed": [
+          "financial_analysis"
+        ]
+      },
+      {
+        "name": "경영전략",
+        "skills_developed": [
+          "business_analysis"
+        ]
+      },
+      {
+        "name": "투자론",
+        "skills_developed": [
+          "financial_analysis"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "금융 아이디어 공모전",
+        "kind": "competition",
+        "description": "청년 대상 금융 서비스 기획안 제출",
+        "skills": [
+          "business_analysis",
+          "presentation"
+        ],
+        "duration_months": 2,
+        "when": "3학년 2학기"
+      }
+    ],
+    "internships": [
+      {
+        "title": "금융권 체험형 인턴",
+        "kind": "internship",
+        "description": "디지털 채널 고객 의견 분석 보조",
+        "skills": [
+          "business_analysis",
+          "excel"
+        ],
+        "duration_months": 2,
+        "when": "4학년 여름방학",
+        "org_type": "금융회사(가상)"
+      }
+    ],
+    "certifications": [
+      "신용분석사"
+    ],
+    "career_decisions": [
+      {
+        "decision": "금융권 디지털 직무 지원",
+        "alternatives": [
+          "컨설팅"
+        ],
+        "reason": "안정성과 디지털 전환 업무를 함께 경험할 수 있다고 봤다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -12,
+        "label": "3학년 2학기",
+        "activity": "금융 공모전",
+        "category": "project"
+      },
+      {
+        "month_offset": -9,
+        "label": "4학년 1학기",
+        "activity": "신용분석사 준비",
+        "category": "certification"
+      },
+      {
+        "month_offset": -5,
+        "label": "4학년 여름",
+        "activity": "체험형 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 5,
+        "label": "졸업 후",
+        "activity": "입행",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 5,
+    "difficulties": [
+      "자격증과 공모전 준비가 겹쳐 학점이 떨어졌다"
+    ],
+    "lessons_learned": [
+      "금융권도 데이터 이해를 요구하는 직무가 늘어나고 있었다"
+    ],
+    "advice": [
+      "금융 지식과 함께 기본적인 데이터 활용 능력을 갖추세요"
+    ],
+    "context_tags": [
+      "고용 안정성",
+      "자격증 준비"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-13",
+    "department": "경영 계열",
+    "graduation_year": 2022,
+    "career_field": [
+      "business_strategy",
+      "global_business"
+    ],
+    "path_type": "foreign_company",
+    "current_role": "컨설팅 애널리스트",
+    "organization_type": "외국계 컨설팅사(가상)",
+    "academic_background": {
+      "major": "경영 계열",
+      "double_major": "통계 계열"
+    },
+    "key_skills": [
+      "business_analysis",
+      "excel",
+      "presentation",
+      "foreign_language",
+      "data_visualization",
+      "statistics"
+    ],
+    "courses": [
+      {
+        "name": "경영전략",
+        "skills_developed": [
+          "business_analysis"
+        ]
+      },
+      {
+        "name": "회귀분석(복수전공)",
+        "skills_developed": [
+          "statistics"
+        ]
+      },
+      {
+        "name": "비즈니스 영어",
+        "skills_developed": [
+          "foreign_language",
+          "presentation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "케이스 컴피티션 참가",
+        "kind": "competition",
+        "description": "기업 문제 해결 케이스를 팀으로 분석·발표",
+        "skills": [
+          "business_analysis",
+          "presentation",
+          "communication"
+        ],
+        "duration_months": 2,
+        "when": "3학년"
+      }
+    ],
+    "internships": [
+      {
+        "title": "외국계 기업 리서치 인턴",
+        "kind": "internship",
+        "description": "산업 리서치와 영문 보고서 작성",
+        "skills": [
+          "business_analysis",
+          "foreign_language",
+          "report_writing"
+        ],
+        "duration_months": 3,
+        "when": "4학년 1학기",
+        "org_type": "외국계 기업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "영어 공인시험 고득점"
+    ],
+    "career_decisions": [
+      {
+        "decision": "외국계 컨설팅 지원",
+        "alternatives": [
+          "국내 대기업 기획"
+        ],
+        "reason": "다양한 산업을 빠르게 경험하며 진로 선택지를 넓히고 싶었다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -14,
+        "label": "3학년",
+        "activity": "케이스 컴피티션",
+        "category": "project"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "리서치 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": -3,
+        "label": "4학년 2학기",
+        "activity": "케이스 면접 준비",
+        "category": "application"
+      },
+      {
+        "month_offset": 2,
+        "label": "졸업 후",
+        "activity": "입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 2,
+    "difficulties": [
+      "영어 케이스 면접 준비가 어려웠다",
+      "업무 강도가 높았다"
+    ],
+    "lessons_learned": [
+      "외국계는 수시 채용이 많아 정보 수집 채널이 중요했다"
+    ],
+    "advice": [
+      "관심 기업 출신 선배에게 직무를 직접 물어보세요"
+    ],
+    "context_tags": [
+      "선택지 유지",
+      "글로벌 환경",
+      "높은 업무 강도"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-14",
+    "department": "언어 계열",
+    "graduation_year": 2021,
+    "career_field": [
+      "localization_language_tech",
+      "global_business"
+    ],
+    "path_type": "foreign_company",
+    "current_role": "현지화(로컬라이제이션) PM",
+    "organization_type": "외국계 IT 기업(가상)",
+    "academic_background": {
+      "major": "언어 계열(외국어 전공)"
+    },
+    "key_skills": [
+      "foreign_language",
+      "communication",
+      "linguistics",
+      "presentation",
+      "excel"
+    ],
+    "courses": [
+      {
+        "name": "번역학 입문",
+        "skills_developed": [
+          "foreign_language"
+        ]
+      },
+      {
+        "name": "언어학개론",
+        "skills_developed": [
+          "linguistics"
+        ]
+      },
+      {
+        "name": "비즈니스 커뮤니케이션",
+        "skills_developed": [
+          "communication",
+          "presentation"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "게임 현지화 번역 프로젝트",
+        "kind": "project",
+        "description": "인디 게임 텍스트의 현지화 품질 기준을 정리",
+        "skills": [
+          "foreign_language",
+          "linguistics"
+        ],
+        "duration_months": 3,
+        "when": "3학년 2학기",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "현지화 QA 인턴",
+        "kind": "internship",
+        "description": "다국어 UI 문자열 검수",
+        "skills": [
+          "foreign_language",
+          "communication"
+        ],
+        "duration_months": 3,
+        "when": "4학년 1학기",
+        "org_type": "외국계 IT 기업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "외국어 공인 시험",
+      "영어 공인시험"
+    ],
+    "career_decisions": [
+      {
+        "decision": "번역가 대신 현지화 PM 직무 선택",
+        "alternatives": [
+          "프리랜서 번역"
+        ],
+        "reason": "언어 역량을 살리면서 IT 제품에 참여하고 싶었다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -12,
+        "label": "3학년 2학기",
+        "activity": "현지화 번역 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "현지화 QA 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 3,
+        "label": "졸업 후",
+        "activity": "PM으로 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 3,
+    "difficulties": [
+      "IT 용어와 개발 프로세스를 따로 공부해야 했다"
+    ],
+    "lessons_learned": [
+      "외국어 실력만이 아니라 프로젝트 관리 경험이 함께 평가되었다"
+    ],
+    "advice": [
+      "언어 전공자는 '언어 + 하나의 도메인' 조합을 만들어 보세요"
+    ],
+    "context_tags": [
+      "글로벌 환경",
+      "전공 활용"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-15",
+    "department": "국제지역 계열",
+    "graduation_year": 2020,
+    "career_field": [
+      "public_policy",
+      "global_business"
+    ],
+    "path_type": "public_sector",
+    "current_role": "국제협력 사업 담당",
+    "organization_type": "공공기관(가상)",
+    "academic_background": {
+      "major": "국제지역 계열"
+    },
+    "key_skills": [
+      "foreign_language",
+      "report_writing",
+      "ncs",
+      "communication"
+    ],
+    "courses": [
+      {
+        "name": "지역연구방법론",
+        "skills_developed": [
+          "report_writing"
+        ]
+      },
+      {
+        "name": "국제개발협력론",
+        "skills_developed": [
+          "report_writing"
+        ]
+      },
+      {
+        "name": "지역 언어 심화",
+        "skills_developed": [
+          "foreign_language"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "국제개발 NGO 대학생 서포터즈",
+        "kind": "extracurricular",
+        "description": "해외 사업 홍보 콘텐츠 제작",
+        "skills": [
+          "communication",
+          "foreign_language"
+        ],
+        "duration_months": 6,
+        "when": "3학년"
+      }
+    ],
+    "internships": [
+      {
+        "title": "공공기관 체험형 인턴",
+        "kind": "internship",
+        "description": "해외 협력 사업 자료 번역과 정리",
+        "skills": [
+          "foreign_language",
+          "report_writing"
+        ],
+        "duration_months": 5,
+        "when": "4학년 2학기",
+        "org_type": "공공기관(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "외국어 공인 시험",
+      "한국사능력검정"
+    ],
+    "career_decisions": [
+      {
+        "decision": "공공기관 국제협력 직무 선택",
+        "alternatives": [
+          "해외 대학원 진학"
+        ],
+        "reason": "지역 전문성을 공공 영역에서 활용하고 싶었다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -16,
+        "label": "3학년",
+        "activity": "NGO 서포터즈",
+        "category": "project"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "NCS 준비",
+        "category": "study"
+      },
+      {
+        "month_offset": -4,
+        "label": "4학년 2학기",
+        "activity": "공공기관 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 8,
+        "label": "졸업 후",
+        "activity": "입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 8,
+    "difficulties": [
+      "채용 인원이 적어 여러 기관에 지원해야 했다"
+    ],
+    "lessons_learned": [
+      "지역 전문성을 보여줄 구체적 결과물이 필요했다"
+    ],
+    "advice": [
+      "관심 지역 관련 보고서를 직접 써 보세요"
+    ],
+    "context_tags": [
+      "사회적 기여",
+      "고용 안정성",
+      "필기 준비 기간"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-16",
+    "department": "언어 계열",
+    "graduation_year": 2023,
+    "career_field": [
+      "localization_language_tech",
+      "ai_ml"
+    ],
+    "path_type": "career_switch",
+    "current_role": "AI 학습데이터 기획 담당",
+    "organization_type": "AI 데이터 기업(가상)",
+    "academic_background": {
+      "major": "언어 계열(외국어 전공)",
+      "minor": "컴퓨터공학 계열"
+    },
+    "key_skills": [
+      "linguistics",
+      "data_annotation",
+      "foreign_language",
+      "python",
+      "communication"
+    ],
+    "courses": [
+      {
+        "name": "말뭉치언어학",
+        "skills_developed": [
+          "linguistics",
+          "data_annotation"
+        ]
+      },
+      {
+        "name": "파이썬 프로그래밍(부전공)",
+        "skills_developed": [
+          "python"
+        ]
+      },
+      {
+        "name": "언어학개론",
+        "skills_developed": [
+          "linguistics"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "다국어 감성 말뭉치 구축 프로젝트",
+        "kind": "project",
+        "description": "라벨링 가이드라인 작성과 품질 검수",
+        "skills": [
+          "data_annotation",
+          "linguistics",
+          "python"
+        ],
+        "duration_months": 4,
+        "when": "4학년 1학기",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "데이터 라벨링 운영 인턴",
+        "kind": "internship",
+        "description": "라벨러 교육 자료 작성과 품질 지표 관리",
+        "skills": [
+          "data_annotation",
+          "communication"
+        ],
+        "duration_months": 3,
+        "when": "4학년 여름방학",
+        "org_type": "AI 데이터 기업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "외국어 공인 시험"
+    ],
+    "career_decisions": [
+      {
+        "decision": "언어 전공을 살려 AI 데이터 분야로 전환",
+        "alternatives": [
+          "통번역 대학원"
+        ],
+        "reason": "AI 시대에 언어 전문성이 데이터 품질로 연결된다고 봤다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -15,
+        "label": "3학년 1학기",
+        "activity": "컴퓨터공학 부전공 시작",
+        "category": "study"
+      },
+      {
+        "month_offset": -10,
+        "label": "4학년 1학기",
+        "activity": "말뭉치 구축 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 여름",
+        "activity": "라벨링 운영 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 2,
+        "label": "졸업 후",
+        "activity": "입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 2,
+    "difficulties": [
+      "개발자와 소통하기 위해 기본 프로그래밍을 따로 익혀야 했다"
+    ],
+    "lessons_learned": [
+      "전공이 달라도 '언어 데이터'라는 연결고리를 만들면 AI 분야에 기여할 수 있었다"
+    ],
+    "advice": [
+      "파이썬 기초만 익혀도 협업의 폭이 넓어져요"
+    ],
+    "context_tags": [
+      "전공 전환",
+      "선택지 유지"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-17",
+    "department": "국제지역 계열",
+    "graduation_year": 2022,
+    "career_field": [
+      "global_business"
+    ],
+    "path_type": "industry_job",
+    "current_role": "해외영업 담당",
+    "organization_type": "국내 제조 기업(가상)",
+    "academic_background": {
+      "major": "국제지역 계열",
+      "double_major": "경영 계열"
+    },
+    "key_skills": [
+      "foreign_language",
+      "negotiation",
+      "communication",
+      "business_analysis",
+      "excel"
+    ],
+    "courses": [
+      {
+        "name": "국제통상론(복수전공)",
+        "skills_developed": [
+          "business_analysis"
+        ]
+      },
+      {
+        "name": "지역 언어 회화",
+        "skills_developed": [
+          "foreign_language"
+        ]
+      },
+      {
+        "name": "마케팅원론(복수전공)",
+        "skills_developed": [
+          "business_analysis"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "해외 박람회 통역 봉사",
+        "kind": "extracurricular",
+        "description": "바이어 미팅 통역 지원",
+        "skills": [
+          "foreign_language",
+          "negotiation"
+        ],
+        "duration_months": 1,
+        "when": "3학년 여름방학",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "무역 실무 인턴",
+        "kind": "internship",
+        "description": "수출 서류와 바이어 커뮤니케이션 보조",
+        "skills": [
+          "foreign_language",
+          "excel",
+          "communication"
+        ],
+        "duration_months": 3,
+        "when": "4학년 1학기",
+        "org_type": "중견 무역 기업(가상)"
+      }
+    ],
+    "certifications": [
+      "무역 관련 자격증",
+      "외국어 공인 시험"
+    ],
+    "career_decisions": [
+      {
+        "decision": "해외영업 직무 선택",
+        "alternatives": [
+          "외국계 기업 지원"
+        ],
+        "reason": "현지 언어를 직접 쓰는 현장 업무를 원했다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -12,
+        "label": "3학년 여름",
+        "activity": "박람회 통역 봉사",
+        "category": "project"
+      },
+      {
+        "month_offset": -8,
+        "label": "4학년 1학기",
+        "activity": "무역 실무 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 3,
+        "label": "졸업 후",
+        "activity": "입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 3,
+    "difficulties": [
+      "출장이 잦아 일과 삶의 균형을 맞추기 어려웠다"
+    ],
+    "lessons_learned": [
+      "언어 실력 이상으로 제품 이해도가 중요했다"
+    ],
+    "advice": [
+      "관심 산업의 제품을 하나 정해 깊게 공부해 보세요"
+    ],
+    "context_tags": [
+      "글로벌 환경",
+      "빠른 취업"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-18",
+    "department": "언어 계열",
+    "graduation_year": 2020,
+    "career_field": [
+      "ux_research"
+    ],
+    "path_type": "career_switch",
+    "current_role": "UX 리서처",
+    "organization_type": "IT 서비스 기업(가상)",
+    "academic_background": {
+      "major": "언어 계열(외국어 전공)",
+      "minor": "통계 계열"
+    },
+    "key_skills": [
+      "user_research",
+      "communication",
+      "statistics",
+      "presentation",
+      "report_writing"
+    ],
+    "courses": [
+      {
+        "name": "사회조사방법론(타과 수강)",
+        "skills_developed": [
+          "user_research",
+          "statistics"
+        ]
+      },
+      {
+        "name": "담화분석",
+        "skills_developed": [
+          "linguistics",
+          "communication"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "학내 앱 사용성 인터뷰 프로젝트",
+        "kind": "project",
+        "description": "학생 12명 인터뷰 후 개선안 보고서 작성",
+        "skills": [
+          "user_research",
+          "report_writing"
+        ],
+        "duration_months": 3,
+        "when": "4학년 1학기",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "UX 리서치 인턴",
+        "kind": "internship",
+        "description": "사용자 인터뷰 진행 보조와 녹취 분석",
+        "skills": [
+          "user_research",
+          "communication"
+        ],
+        "duration_months": 4,
+        "when": "4학년 2학기",
+        "org_type": "IT 서비스 기업(가상)"
+      }
+    ],
+    "certifications": [],
+    "career_decisions": [
+      {
+        "decision": "전공과 다른 UX 리서치 분야로 진출",
+        "alternatives": [
+          "외국어 강사"
+        ],
+        "reason": "사람의 말과 행동을 해석하는 일이 전공과 연결된다고 느꼈다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -14,
+        "label": "3학년 2학기",
+        "activity": "통계 부전공 시작",
+        "category": "study"
+      },
+      {
+        "month_offset": -10,
+        "label": "4학년 1학기",
+        "activity": "사용성 인터뷰 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -4,
+        "label": "4학년 2학기",
+        "activity": "UX 리서치 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 4,
+        "label": "졸업 후",
+        "activity": "입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 4,
+    "difficulties": [
+      "포트폴리오를 처음부터 만들어야 했다"
+    ],
+    "lessons_learned": [
+      "정성 조사와 기본 통계를 함께 다룰 수 있다는 점이 강점이 되었다"
+    ],
+    "advice": [
+      "작은 사용자 조사라도 과정과 결과를 문서로 남기세요"
+    ],
+    "context_tags": [
+      "전공 전환",
+      "선택지 유지"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  },
+  {
+    "record_id": "S-19",
+    "department": "경제 계열",
+    "graduation_year": 2023,
+    "career_field": [
+      "finance",
+      "data_science"
+    ],
+    "path_type": "finance",
+    "current_role": "핀테크 데이터 분석 담당",
+    "organization_type": "핀테크 기업(가상)",
+    "academic_background": {
+      "major": "경제 계열"
+    },
+    "key_skills": [
+      "python",
+      "sql",
+      "statistics",
+      "financial_analysis",
+      "data_visualization"
+    ],
+    "courses": [
+      {
+        "name": "계량경제학",
+        "skills_developed": [
+          "statistics",
+          "r"
+        ]
+      },
+      {
+        "name": "화폐금융론",
+        "skills_developed": [
+          "financial_analysis"
+        ]
+      },
+      {
+        "name": "파이썬 데이터분석(교양)",
+        "skills_developed": [
+          "python"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "금리 변화와 소비 데이터 분석",
+        "kind": "project",
+        "description": "공개 통계 자료로 시계열 분석 보고서 작성",
+        "skills": [
+          "python",
+          "statistics",
+          "data_visualization"
+        ],
+        "duration_months": 3,
+        "when": "4학년 1학기",
+        "self_reported_link": true
+      }
+    ],
+    "internships": [
+      {
+        "title": "핀테크 데이터 인턴",
+        "kind": "internship",
+        "description": "이상거래 탐지 지표 대시보드 보조",
+        "skills": [
+          "sql",
+          "data_visualization"
+        ],
+        "duration_months": 3,
+        "when": "4학년 여름방학",
+        "org_type": "핀테크 기업(가상)",
+        "self_reported_link": true
+      }
+    ],
+    "certifications": [
+      "ADsP"
+    ],
+    "career_decisions": [
+      {
+        "decision": "전통 금융권 대신 핀테크 데이터 직무 선택",
+        "alternatives": [
+          "은행 공채"
+        ],
+        "reason": "데이터를 직접 다루는 일을 하고 싶었다."
+      }
+    ],
+    "preparation_timeline": [
+      {
+        "month_offset": -12,
+        "label": "4학년 1학기",
+        "activity": "시계열 분석 프로젝트",
+        "category": "project"
+      },
+      {
+        "month_offset": -6,
+        "label": "4학년 여름",
+        "activity": "핀테크 데이터 인턴",
+        "category": "internship"
+      },
+      {
+        "month_offset": 1,
+        "label": "졸업 후",
+        "activity": "전환형 채용으로 입사",
+        "category": "application"
+      }
+    ],
+    "months_to_first_role": 1,
+    "difficulties": [
+      "SQL을 실무 수준으로 다루기까지 시간이 걸렸다"
+    ],
+    "lessons_learned": [
+      "경제학적 해석 능력이 데이터 분석의 차별점이 되었다"
+    ],
+    "advice": [
+      "전공 지식으로 데이터를 '해석'하는 연습을 하세요"
+    ],
+    "context_tags": [
+      "빠른 취업",
+      "실무 경험 중시"
+    ],
+    "department_is_demo_category": true,
+    "evidence_source": {
+      "type": "synthetic_demo",
+      "description": "서비스 기능 시연을 위해 작성한 가상 데이터 (실제 선배 진술 아님)"
+    },
+    "source_date": "2026-11-04",
+    "consent_status": "synthetic_not_applicable",
+    "is_synthetic": true
+  }
+]
