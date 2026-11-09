@@ -6,7 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { EVAL_DIR, listEvalRuns, runAnswerEval, runRetrievalEval, saveEvalRun } from "@/lib/eval/runner";
 
-export const maxDuration = 600;
+export const maxDuration = 300; // Vercel Hobby 상한(300초)
 
 export async function GET(req: Request) {
   if (isPublicDemo()) return DEMO_404();
